@@ -49,7 +49,7 @@ Ofertas do dia
     <h2 class="card-title">{{$produto->nome}}</h2>
     <p>{{$produto->descricao}}</p>
     <div class="card-actions justify-betweem">
-          <div><strong>R${{$produto->valor}}</strong></div>
+          <div><strong>R${{number_format($produto->valor, 2, ',','.')}}</strong></div>
           <div><em>30% Off</em></div>
       <button class="btn btn-primary">Compre Já</button>
     </div>

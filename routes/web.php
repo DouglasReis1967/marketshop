@@ -31,3 +31,5 @@ Route::post('/salva-usuario', function (Request $request) {
     dd("salvo com sucesso!!");
 
 })->name('salva-usuario');
+
+Route::view('/cadastra-produto','cadastra-produto');
